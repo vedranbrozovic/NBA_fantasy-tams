@@ -1,0 +1,41 @@
+# Source code start point:https://github.com/turtlecode/Get-NBA-Scores-Python-NBA-API/blob/main/main.py
+# Prints NBA scores for given dates
+
+from pprint import PrettyPrinter
+import datetime
+
+# Set start date of the analysis
+date_start = datetime.datetime(2022,4,1)        # Define a start date > choose
+date_end = datetime.datetime.now()              # Define an end date > today
+
+# Define the main parts of the URL for .json files on nba webpage
+BASE_URL = "https://data.nba.net/data/10s/prod/v1/"
+END_URL = "/scoreboard.json"
+
+# Define the printer funcion
+printer = PrettyPrinter()
+
+# Define a function to get a scoreboard for games on a specific date + printing
+def get_scoreboard(date_game):
+    print("*********************************")
+    print("Games on this date: " + date_game)
+    games = get(BASE_URL + date_game + END_URL).json()['games']
+    for game in games:
+        home_team = game['hTeam']
+        away_team = game['vTeam']
+        clock = game['clock']
+        period = game['period']
+
+        print("------------------------------------------")
+        print(f"{home_team['triCode']} vs {away_team['triCode']}")
+        print(f"{home_team['score']} - {away_team['score']}")
+        print(f"{clock} - {period['current']}")
+
+
+# Parse through all the dates from start to end
+date_current = date_start
+while date_current <= date_end:
+    get_scoreboard(date_current.strftime("%Y%m%d"))
+    date_current = date_current + datetime.timedelta(days=1)
+
+
