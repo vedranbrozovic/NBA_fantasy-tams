@@ -1,5 +1,11 @@
+# NOT USEFUL ANYMORE
+# Please note that I'm keeping this as a reference - this was my starting point - but it's not really working as NBA's json files changed
+# This approach doesn't work as of season 22/23 (starting Oct-22)
+# Please refer to the other files where I'm using nba_api
+
 # Source code start point:https://github.com/turtlecode/Get-NBA-Scores-Python-NBA-API/blob/main/main.py
 # Prints NBA scores for given dates
+
 
 from pprint import PrettyPrinter
 import datetime
