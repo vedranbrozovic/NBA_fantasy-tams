@@ -1,0 +1,31 @@
+TEAM_ID	TEAM_ABBREVIATION	TEAM_NAME	TEAM_OWNER	TEAM_PICK
+1610612745	HOU	Houston Rockets	Miran	10
+1610612761	TOR	Toronto Raptors	Miran	2
+1610612763	MEM	Memphis Grizzlies	Miran	3
+1610612765	DET	Detroit Pistons	Miran	8
+1610612755	PHI	Philadelphia 76ers	Miran	1
+1610612754	IND	Indiana Pacers	Miran	9
+1610612737	ATL	Atlanta Hawks	Miran	6
+1610612750	MIN	Minnesota Timberwolves	Miran	5
+1610612756	PHX	Phoenix Suns	Miran	4
+1610612752	NYK	New York Knicks	Miran	7
+1610612746	LAC	LA Clippers	Tata	3
+1610612758	SAC	Sacramento Kings	Tata	10
+1610612748	MIA	Miami Heat	Tata	4
+1610612742	DAL	Dallas Mavericks	Tata	1
+1610612760	OKC	Oklahoma City Thunder	Tata	7
+1610612753	ORL	Orlando Magic	Tata	6
+1610612740	NOP	New Orleans Pelicans	Tata	5
+1610612766	CHA	Charlotte Hornets	Tata	9
+1610612764	WAS	Washington Wizards	Tata	8
+1610612744	GSW	Golden State Warriors	Tata	2
+1610612749	MIL	Milwaukee Bucks	Vedran	1
+1610612743	DEN	Denver Nuggets	Vedran	3
+1610612759	SAS	San Antonio Spurs	Vedran	10
+1610612738	BOS	Boston Celtics	Vedran	2
+1610612739	CLE	Cleveland Cavaliers	Vedran	8
+1610612741	CHI	Chicago Bulls	Vedran	7
+1610612751	BKN	Brooklyn Nets	Vedran	4
+1610612757	POR	Portland Trail Blazers	Vedran	5
+1610612762	UTA	Utah Jazz	Vedran	9
+1610612747	LAL	Los Angeles Lakers	Vedran	6
