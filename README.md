@@ -24,3 +24,6 @@ Big thanks to the team of nba_api which makes this easier, make sure to follow i
 * Excel with chosen teams & order
 * get-data notebook with the main code
 * old code - keeping for now
+
+
+_Note: cover photo made using https://www.craiyon.com/, query: "sketch of basketball nba fantasy league coding developer"_
