@@ -18,7 +18,7 @@ This game is best played in groups of 3 (10 teams each), 6 (5 teams each) or 10 
 This project represents a collection of efforts to retrieve and analyze the data for our game.
 
 Big thanks to the team of nba_api which makes this easier, make sure to follow it here: https://github.com/swar/nba_api
-
+Also special thanks to liannewriting for the starting point on the code: https://github.com/liannewriting/data-science-project-from-scratch-youtube-nba
 
 ## Files:
 * Excel with chosen teams & order
