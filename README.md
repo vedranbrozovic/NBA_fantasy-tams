@@ -11,9 +11,10 @@ Each of us picks 10 teams and we see who was more successful to pick winners.
 This game is best played in groups of 3 (10 teams each), 6 (5 teams each) or 10 (3 teams each) - at least until NBA makes an extension to 32 teams - SuperSonics I'm waiting...
 
 ## Point System:
-1. You get 1 point for each win in the regular season
-2. You get 3 points for each Playoff win (arbitrary number to be materially higher than 1 to award playoff and keep things interesting potentially, but doesn't ruin successfull season predicitons - we can revisit for the next seson)
-3. You get 26 points if your team eventually goes on and wins the championship
+(you can adjust the point system however you like)
+1. You get 1 point for each win in the regular season (implemented)
+2. You get 3 points for each Playoff win (arbitrary number to be materially higher than 1 to award playoff and keep things interesting potentially, but doesn't ruin successfull season predicitons - we can revisit for the next seson) (to come)
+3. You get 26 points if your team eventually goes on and wins the championship (to come)
 
 This project represents a collection of efforts to retrieve and analyze the data for our game.
 
